@@ -1,0 +1,114 @@
+#principal{
+	width: 900px;
+	height: auto;overflow:hidden;
+	border: 1px solid #000;
+	margin: auto;
+}
+header{
+	width:900px;
+	height:100px;
+	border:1px solid #000;
+	background:#333;
+	color: #fff;
+	position:fixed;
+}
+#logo{
+	width:200px;
+	height: 100px;
+	border: 1px solid #000;
+	float:left;
+	padding-right:31px;
+}
+.menu{
+	width: 470px;
+	height:auto;overflow:hidden;
+	border:1px solid #ccc;
+	float:right
+	padding-right: 13 px;
+	margin:0 auto;
+	margin-right:130 px;
+	background:#58ACFA;
+	
+}
+.menu ul{
+	float:left;
+	list-style-type:none;
+	padding:0;
+	}
+.menu ul li{
+	list-style:none;
+	float:right;
+	text-align: center;
+}
+.menu ul li a {
+	text-decoration:none;
+	padding:60px 15px;
+	border: 0px solid #ccc;	
+	color:#fff;
+}	
+#slide{
+	margin-top 10px;
+	width: 850px;
+	height: 250px;
+	padding-right:130px;
+	
+}
+#categorias{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 1px solid;
+	margin-top: 10px;
+	
+}
+.uno{
+	width: 280px;
+	height: auto;overflow:hidden;
+	border: 1px solid;
+	float:left;
+	padding-right: 5px;
+}
+.dos{
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid;
+}
+.tres{
+	width: 280px;
+	height: auto;overflow:hidden;
+	border: 1px solid;
+	margin-right:12px;
+}
+.cuatro{
+	width: 280px;
+	height: auto;overflow:hidden;
+	border: 1px solid;
+}
+.leer-mas{
+	text-decoration:none;
+	border: 1px solid #006699;
+	padding:10px 20px 10px 20px;
+	margin:10px;
+}
+.leer-mas:hover´{
+	background: #006699;
+	color:#fff;
+	transition:background 1s, color 1s;
+}
+#info{
+	width: 900px;
+	height: auto;overflow:hidden;
+	border: 1px solid #c0c0c0;
+	margin-top: 10px;
+}
+#izq{
+	width: 590px;
+	height: 300px;
+	border: 1px solid #000;
+	float: left;
+}
+#derecha{
+	width: 590px;
+	height: 300px;
+	border: 1px solid #000;
+	float: right;
+}

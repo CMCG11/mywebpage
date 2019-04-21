@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prompt</title>
+	<Script type="text/javascript">
+	function mostr_prompt()
+	{
+	var nombre=prompt("Introduzca su nombre","Nombre");
+	document.getElementById("msg").innerHTML="Felicidades" +nombre
+	}
+	</script>
+ </head>
+<body>
+<input type="button" onclick="mostr_prompt()" value="Abrir una ventana 'prompt'"/>
+</br>
+<div id="msg"></div>
+</body>
+</html>
